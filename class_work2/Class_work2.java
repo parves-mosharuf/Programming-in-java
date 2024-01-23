@@ -13,7 +13,7 @@ public class Class_work2
         {
             System.out.println("is not a leap year");
         }
-        else if (year%100==0&& year%400!=0)
+        else if (year%100==0 && year%400!=0)
         {
             System.out.println("is not a leap year");
         }
