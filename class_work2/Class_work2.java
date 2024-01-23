@@ -9,13 +9,17 @@ public class Class_work2
         Scanner leapyear = new Scanner(System.in);
         System.out.print("Enter year : ");
         int year = leapyear.nextInt();
-        if (year%4==0)
+        if (year%4!=0)
         {
-            System.out.println("leap year");
+            System.out.println("is not a leap year");
+        }
+        else if (year%100==0&& year%400!=0)
+        {
+            System.out.println("is not a leap year");
         }
         else 
         {
-            System.out.println("is not a leap year");
+            System.out.println("is a leap year");  
         }
     }
 }
